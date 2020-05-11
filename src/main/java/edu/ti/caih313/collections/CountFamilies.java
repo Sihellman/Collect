@@ -21,7 +21,6 @@ public class CountFamilies {
 
             if(entry > max){
                 max = entry;
-                System.out.println(max);
             }
 
             incomes.add(entry);
