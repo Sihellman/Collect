@@ -29,7 +29,6 @@ public class CountFamilies {
         int count = 0;
         int listSize = incomes.size();
         for(int i = 0; i < listSize; i++){
-            System.out.println(incomes.get(i));
             if (incomes.get(i) < tenPercent){
                 count++;
                 System.out.println(incomes.get(i));
