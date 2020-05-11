@@ -18,7 +18,7 @@ public class CountFamilies {
             if(entry < 0){
                 break;
             }
-            System.out.println("entering " + entry);
+
             if(entry > max){
                 max = entry;
                 System.out.println(max);
@@ -27,7 +27,6 @@ public class CountFamilies {
             incomes.add(entry);
         }
         Double tenPercent = max * 0.10;
-        System.out.println("tenpercent " + tenPercent);
         int count = 0;
         int listSize = incomes.size();
         for(int i = 0; i < listSize; i++){
