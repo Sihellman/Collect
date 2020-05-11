@@ -37,7 +37,7 @@ public class FinalReadSearch {
                         word = "";
                         word += array[i];
                     }
-                    else if((array[i] != ' ') && (array[i] != '.') && (array[i] != '?') && (array[i] != '!') && (array[i] != ',') && (array[i] != '"') && (array[i] != '\"') && (array[i] != '/') && (array[i] != '\\') && (array[i] != ';') && (array[i] != ':')){
+                    else if((array[i] != ' ') && (array[i] != '.') && (array[i] != '?') && (array[i] != '!') && (array[i] != ',') && (array[i] != '"') && (array[i] != '\"') && (array[i] != '/') && (array[i] != '\\') && (array[i] != ';') && (array[i] != ':') && (array[i] != '[') && (array[i] != ']') && (array[i] != '{') && (array[i] != '}')){
                         word += array[i];
                     }
                     else if((array[i] == ' ') && (!word.equals(""))){
